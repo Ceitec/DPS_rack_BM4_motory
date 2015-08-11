@@ -1,0 +1,15 @@
+Partlist exported from C:/Users/Lukas/Documents/eagle/DPS_rack_BM4_motory/LIC_rack_BM4.sch at 7.7.2015 15:56:13
+
+Part Value                                 Device         Package Description                             
+C1   CE 220u/35VT JAM-TK 8x11,5 RM3,5 BULK CPOL-EUE3.5-8L E3,5-8L POLARIZED CAPACITOR, European symbol    
+C2   CE 220u/35VT JAM-TK 8x11,5 RM3,5 BULK CPOL-EUE3.5-8L E3,5-8L POLARIZED CAPACITOR, European symbol    
+C3   CE 220u/35VT JAM-TK 8x11,5 RM3,5 BULK CPOL-EUE3.5-8L E3,5-8L POLARIZED CAPACITOR, European symbol    
+J1                                         VG32SP         VG32P   PCB EUROCARD, 32-pin type C/AC, 5.08 mm 
+J2   22-27-2031-03                         22-27-2031-03  6410-03 CONNECTOR                               
+J3   22-27-2031-03                         22-27-2031-03  6410-03 CONNECTOR                               
+J4   22-27-2081-08                         22-27-2081-08  6410-08 CONNECTOR                               
+J5   22-27-2031-03                         22-27-2031-03  6410-03 CONNECTOR                               
+J6   22-27-2031-03                         22-27-2031-03  6410-03 CONNECTOR                               
+J7   22-27-2081-08                         22-27-2081-08  6410-08 CONNECTOR                               
+LED1 L-3P90-GREEN                          L-3P90-GREEN   L-3P90                                          
+R1   4k7                                   R-EU_R1206     R1206   RESISTOR, European symbol               
