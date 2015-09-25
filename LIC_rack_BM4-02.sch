@@ -15721,17 +15721,17 @@ Source: avr.lbr</description>
 <text x="223.52" y="83.82" size="1.778" layer="97">M2_Z_Posuv</text>
 <text x="223.52" y="73.66" size="1.778" layer="97">M4</text>
 <text x="224.536" y="60.96" size="1.778" layer="97">Reference</text>
-<text x="217.678" y="68.072" size="1.27" layer="97">X_Ref</text>
+<text x="169.418" y="68.072" size="1.27" layer="97">X_Ref</text>
+<text x="169.418" y="65.532" size="1.27" layer="97">Y_Ref</text>
+<text x="169.418" y="57.912" size="1.27" layer="97">Z_Ref</text>
 <text x="217.678" y="65.532" size="1.27" layer="97">Y_Ref</text>
+<text x="217.678" y="68.072" size="1.27" layer="97">X_GND</text>
+<text x="217.678" y="62.992" size="1.27" layer="97">Y_GND</text>
+<text x="217.678" y="60.452" size="1.27" layer="97">X_Ref</text>
 <text x="217.678" y="57.912" size="1.27" layer="97">Z_Ref</text>
-<text x="243.078" y="65.532" size="1.27" layer="97">Y_Ref</text>
-<text x="243.078" y="68.072" size="1.27" layer="97">X_Ref</text>
-<text x="243.078" y="62.992" size="1.27" layer="97">Y_GND</text>
-<text x="243.078" y="60.452" size="1.27" layer="97">X_GND</text>
-<text x="243.078" y="57.912" size="1.27" layer="97">Z_Ref</text>
-<text x="243.078" y="55.372" size="1.27" layer="97">Z_GND</text>
 <text x="217.678" y="55.372" size="1.27" layer="97">Z_GND</text>
-<text x="217.678" y="60.452" size="1.27" layer="97">X_GND</text>
+<text x="169.418" y="55.372" size="1.27" layer="97">Z_GND</text>
+<text x="169.418" y="62.992" size="1.27" layer="97">X_GND</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="0" y="0"/>
@@ -15792,14 +15792,14 @@ Source: avr.lbr</description>
 <instance part="J7" gate="-7" x="33.02" y="20.32" rot="MR0"/>
 <instance part="J7" gate="-8" x="33.02" y="17.78" rot="MR0"/>
 <instance part="J7" gate="-1" x="33.02" y="35.56" rot="MR0"/>
-<instance part="J2" gate="-1" x="33.02" y="99.06" rot="MR0"/>
-<instance part="J2" gate="-2" x="33.02" y="96.52" rot="MR0"/>
-<instance part="J2" gate="-3" x="33.02" y="93.98" rot="MR0"/>
-<instance part="J3" gate="-1" x="33.02" y="81.28" rot="MR0"/>
-<instance part="J3" gate="-2" x="33.02" y="78.74" rot="MR0"/>
-<instance part="J3" gate="-3" x="33.02" y="76.2" rot="MR0"/>
-<instance part="GND1" gate="1" x="43.18" y="88.9"/>
-<instance part="GND5" gate="1" x="43.18" y="71.12"/>
+<instance part="J2" gate="-1" x="134.62" y="68.58" rot="MR0"/>
+<instance part="J2" gate="-2" x="134.62" y="66.04" rot="MR0"/>
+<instance part="J2" gate="-3" x="134.62" y="63.5" rot="MR0"/>
+<instance part="J3" gate="-1" x="134.62" y="50.8" rot="MR0"/>
+<instance part="J3" gate="-2" x="134.62" y="48.26" rot="MR0"/>
+<instance part="J3" gate="-3" x="134.62" y="45.72" rot="MR0"/>
+<instance part="GND1" gate="1" x="144.78" y="58.42"/>
+<instance part="GND5" gate="1" x="144.78" y="40.64"/>
 <instance part="C1" gate="A" x="137.16" y="154.94"/>
 <instance part="LED1" gate="A" x="121.92" y="139.7"/>
 <instance part="R1" gate="G$1" x="121.92" y="149.86" rot="R90"/>
@@ -15846,14 +15846,14 @@ Source: avr.lbr</description>
 <pinref part="J1" gate="-C28" pin="MS"/>
 </segment>
 <segment>
-<wire x1="35.56" y1="76.2" x2="43.18" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="76.2" x2="43.18" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="45.72" x2="144.78" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="45.72" x2="144.78" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="J3" gate="-3" pin="S"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="35.56" y1="93.98" x2="43.18" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="93.98" x2="43.18" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="63.5" x2="144.78" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="63.5" x2="144.78" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="J2" gate="-3" pin="S"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 </segment>
@@ -16143,51 +16143,51 @@ Source: avr.lbr</description>
 <pinref part="J1" gate="-C22" pin="MS"/>
 </segment>
 </net>
-<net name="M1_REF_L" class="0">
+<net name="M2_REF_Y_GND(PRO_X)" class="0">
 <segment>
 <wire x1="203.2" y1="66.04" x2="195.58" y2="66.04" width="0.1524" layer="91"/>
 <label x="195.58" y="66.04" size="1.27" layer="95" font="vector" ratio="15" rot="MR0" xref="yes"/>
 <pinref part="J1" gate="-C24" pin="MS"/>
 </segment>
 <segment>
-<wire x1="35.56" y1="99.06" x2="40.64" y2="99.06" width="0.1524" layer="91"/>
-<label x="40.64" y="99.06" size="1.27" layer="95" font="vector" ratio="15" xref="yes"/>
+<wire x1="137.16" y1="68.58" x2="142.24" y2="68.58" width="0.1524" layer="91"/>
+<label x="142.24" y="68.58" size="1.27" layer="95" font="vector" ratio="15" xref="yes"/>
 <pinref part="J2" gate="-1" pin="S"/>
 </segment>
 </net>
-<net name="M2_REF_L" class="0">
+<net name="M2_REF_Y_POSUV" class="0">
 <segment>
 <wire x1="203.2" y1="63.5" x2="195.58" y2="63.5" width="0.1524" layer="91"/>
 <label x="195.58" y="63.5" size="1.27" layer="95" font="vector" ratio="15" rot="MR0" xref="yes"/>
 <pinref part="J1" gate="-A26" pin="MS"/>
 </segment>
 <segment>
-<wire x1="35.56" y1="96.52" x2="40.64" y2="96.52" width="0.1524" layer="91"/>
-<label x="40.64" y="96.52" size="1.27" layer="95" font="vector" ratio="15" xref="yes"/>
+<wire x1="137.16" y1="66.04" x2="142.24" y2="66.04" width="0.1524" layer="91"/>
+<label x="142.24" y="66.04" size="1.27" layer="95" font="vector" ratio="15" xref="yes"/>
 <pinref part="J2" gate="-2" pin="S"/>
 </segment>
 </net>
-<net name="M3_REF_L" class="0">
+<net name="M2_REF_X_POSUV" class="0">
 <segment>
 <wire x1="203.2" y1="60.96" x2="198.12" y2="60.96" width="0.1524" layer="91"/>
 <label x="198.12" y="60.96" size="1.27" layer="95" font="vector" ratio="15" rot="MR0" xref="yes"/>
 <pinref part="J1" gate="-C26" pin="MS"/>
 </segment>
 <segment>
-<wire x1="35.56" y1="81.28" x2="40.64" y2="81.28" width="0.1524" layer="91"/>
-<label x="40.64" y="81.28" size="1.27" layer="95" font="vector" ratio="15" xref="yes"/>
+<wire x1="137.16" y1="50.8" x2="142.24" y2="50.8" width="0.1524" layer="91"/>
+<label x="142.24" y="50.8" size="1.27" layer="95" font="vector" ratio="15" xref="yes"/>
 <pinref part="J3" gate="-1" pin="S"/>
 </segment>
 </net>
-<net name="M4_REF_L" class="0">
+<net name="M2_REF_Z_POSUV" class="0">
 <segment>
 <wire x1="203.2" y1="58.42" x2="198.12" y2="58.42" width="0.1524" layer="91"/>
 <label x="198.12" y="58.42" size="1.27" layer="95" font="vector" ratio="15" rot="MR0" xref="yes"/>
 <pinref part="J1" gate="-A28" pin="MS"/>
 </segment>
 <segment>
-<wire x1="35.56" y1="78.74" x2="40.64" y2="78.74" width="0.1524" layer="91"/>
-<label x="40.64" y="78.74" size="1.27" layer="95" font="vector" ratio="15" xref="yes"/>
+<wire x1="137.16" y1="48.26" x2="142.24" y2="48.26" width="0.1524" layer="91"/>
+<label x="142.24" y="48.26" size="1.27" layer="95" font="vector" ratio="15" xref="yes"/>
 <pinref part="J3" gate="-2" pin="S"/>
 </segment>
 </net>
